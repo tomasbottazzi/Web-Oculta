@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(a.jpg);
+}
+.container {
+    display: grid;
+    width:100%;
+    max-width: 100%;    
+    gap: 0;
+}
+.grid-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'lucida calligraphy';
+    text-align: center;
+    color: white;
+    line-height: 70px;
+  }
+  h3{
+    font-family: 'lucida calligraphy';
+    text-align: center;
+    color: white;
+    line-height: 70px;
+  }
+  p{
+    font-family: 'ink free';
+    font-size: larger;
+    color: white;
+    text-align: center; 
+  }
+  ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      line-height: 35px;
+  }
+  li{
+      width: 250px;
+      display: inline-block;
+      text-align: center;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      display: block;
+  }
+  a:hover{
+      background: red;
+      color: black;
+  }
+  footer{
+    background-color: black;
+  }
