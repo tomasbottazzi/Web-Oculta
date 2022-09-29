@@ -58,7 +58,7 @@ footer{
   }
 @media (min-width: 320px){
     iframe{
-        width: 280px;
+        width: 350px;
         height: 200px;
     }
 }
